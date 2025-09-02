@@ -193,7 +193,7 @@ spec:
       numCores: 2
       numSockets: 1
       sourceNode: pimox2
-      templateID: 5002
+      templateID: 5005
 ---
 apiVersion: cluster.x-k8s.io/v1beta1
 kind: MachineDeployment
@@ -244,7 +244,7 @@ spec:
       numCores: 2
       numSockets: 1
       sourceNode: pimox2
-      templateID: 5002
+      templateID: 5005
 ---
 apiVersion: bootstrap.cluster.x-k8s.io/v1beta1
 kind: KubeadmConfigTemplate
