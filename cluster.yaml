@@ -23,6 +23,8 @@ metadata:
   name: myproxmoxcluster
   namespace: default
 spec:
+  schedulerHints:
+    memoryAdjustment: 0
   allowedNodes:
   - pimox2
   controlPlaneEndpoint:
